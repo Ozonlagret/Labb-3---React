@@ -1,0 +1,50 @@
+.bakgrund {
+  background-color: lightgray;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+body {
+  background-color: rgb(92, 125, 134);
+}
+
+.todoList {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.702);
+  margin-top: 50px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.done {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.not-done {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.todoList .removeButton {
+  color: rgb(230, 227, 227);
+  background-color: hsl(0, 100%, 50%);
+  
+}
+
+.left{
+  width: 70%;
+}
+
+.right {
+  width: 20%;
+}
+
+.todoText {
+  padding-top: 20px;
+}
