@@ -7,43 +7,67 @@ h1 {
 }
 
 body {
-  background-color: rgb(92, 125, 134);
+  background-color: rgb(80, 121, 133);
+  font-family: Helvetica;
 }
 
 .todoList {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.702);
   margin-top: 50px;
-  width: 40%;
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.todoItem {
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  font-size: 20px;
+}
 
+.todoItems {
+  position: relative;
+  width: 100%
+}
 
 .done {
   text-decoration: line-through;
-  cursor: pointer;
 }
 
 .not-done {
   text-decoration: none;
-  cursor: pointer;
 }
 
-.todoList .removeButton {
+.removeButton {
+  display: flex;
   color: rgb(230, 227, 227);
   background-color: hsl(0, 100%, 50%);
-  
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
 }
 
 .left{
-  width: 70%;
+  width: 85%;
+  border-radius: 5px;
 }
 
 .right {
-  width: 20%;
+  width: 13%;
+  border-radius: 5px;
 }
+
+#itemText {
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
 
 .todoText {
   padding-top: 20px;
